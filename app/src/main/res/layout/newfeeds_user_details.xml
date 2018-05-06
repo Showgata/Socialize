@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/newsFeed_user"
+        android:layout_width="match_parent"
+        android:layout_height="123dp">
+
+        <RelativeLayout
+            android:id="@+id/paletteForm"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorSoftWhite"
+            android:layout_alignParentLeft="true">
+
+            <TextView
+                android:id="@+id/funame"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="22dp"
+                android:layout_marginTop="8dp"
+                android:gravity="right|center_vertical|end"
+                android:lineSpacingExtra="14sp"
+                android:text="Subhojit Ghosh"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                app:fontFamily="@font/andika"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="22dp" />
+
+
+            <TextView
+                android:id="@+id/fposttime"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/funame"
+                android:layout_alignStart="@+id/funame"
+                android:layout_below="@+id/funame"
+                android:gravity="right|center_vertical|end"
+                android:lineSpacingExtra="14sp"
+                android:text="Today 06:30 AM"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"
+                app:fontFamily="@font/andika" />
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userProfilePic"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="18dp"
+            android:src="@color/colorPrimary"
+            app:civ_border_color="@color/colorSoftWhite"
+            app:civ_border_width="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="32dp" />
+
+    </RelativeLayout>
+</FrameLayout>
