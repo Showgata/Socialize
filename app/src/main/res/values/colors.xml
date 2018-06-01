@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fad</color>
+    <color name="colorAccent">#d63031</color>
+
+    <color name="colorBack">#fad390</color>
+    <color name="colorBackLight">#fdedd1</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorSoftWhite">#fcfcfc</color>
+    <color name="colorButtonLogin">#edae49</color>
+    <color name="colorLoginText">#818284</color>
+    <color name="colorLoginTextHint">#e2e2e2</color>
+
+</resources>

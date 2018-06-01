@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LargeTextBoxPaddingBottom">24dp</dimen>
+    <dimen name="LargeTextBoxPaddingTop">32dp</dimen>
+    <dimen name="ToolbarMinHeight">50dp</dimen>
+</resources>
